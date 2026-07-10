@@ -1,22 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>B14-A01-DevConf-azamtagore</title>
-        <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
 
 </head>
+
 <body>
     <!-- NAVBar Start -->
-     <header >
-        <nav class="navbar">
+    <header>
+        <nav>
             <div>
-            <h2>
-                <img src="images/logo.png">
+                <h2>
+                    <img src="images/logo.png">
                 </h2>
-                </div>
-                <div>
+            </div>
+            <div>
                 <ul>
                     <li>Speakers</li>
                     <li>Schedule</li>
@@ -24,11 +31,186 @@
                     <li>Venue</li>
                     <li>Blog</li>
                 </ul>
-                </div>
-                <div>
-                    <button>Register Now</button>
-                </div>
+            </div>
+            <div>
+                <button class="common-button">Register Now</button>
+            </div>
         </nav>
-     </header>
+    </header>
+    <!-- NAVBar End -->
+
+    <!-- Banner Section Start -->
+    <!-- <section class="banner-section">
+        <img src="images/banner.jpg" alt="" class="bg-image">
+        <h2>Code. Connect. Create</h2>
+        <p>Join 4,000+ engineers, founders, and builders at the premier developer conference of 2026. Three days of
+            cutting-edge talks, hands-on workshops, and meaningful connections.</p>
+            <button class="common-button">Register Now</button>
+
+    </section> -->
+
+    <!-- Banner (Hero) Section Start -->
+    <section class="hero">
+
+        <img src="images/banner.jpg" alt="banner" class="hero-img">
+
+        <div class="overlay"></div>
+
+        <div class="hero-content">
+            <h1>
+                Code.
+                <span>Connect.</span>
+                Create
+            </h1>
+
+            <p>
+                Join 4,000+ engineers, founders, and builders at the premier
+                developer conference of 2026. Three days of cutting-edge talks,
+                hands-on workshops, and meaningful connections.
+            </p>
+
+            <a href="#" class="btn">Register Now</a>
+        </div>
+
+    </section>
+    <!-- Banner (Hero) Section End -->
+
+     <!--Meet the Speakers Section start -->
+    <section class="speakers">
+
+    <h1>Meet the Speakers</h1>
+
+    <div class="speaker-container">
+
+        <div class="card">
+            <img src="images/andrej.png" alt="Andrej Karpathy">
+
+            <div class="card-content">
+                <h5>AI / ML</h5>
+                <h2>Andrej Karpathy</h2>
+                <p>Pretraining Team, Anthropic</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/demis.png" alt="Demis Hassabis">
+
+            <div class="card-content">
+                <h5>CLOUD & DEVOPS</h5>
+                <h2>Demis Hassabis</h2>
+                <p>Co-Founder and CEO, Google DeepMind</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/gary.png" alt="Gary Marcus">
+
+            <div class="card-content">
+                <h5>FRONTEND</h5>
+                <h2>Gary Marcus</h2>
+                <p>Staff Engineer, Vercel</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/mustafa.png" alt="Mustafa Suleyman">
+
+            <div class="card-content">
+                <h5>SECURITY</h5>
+                <h2>Mustafa Suleyman</h2>
+                <p>CEO of Microsoft AI</p>
+            </div>
+        </div>
+
+    </div>
+ 
+</section>
+<!-- Pricing Section start -->
+<section class="pricing">
+
+    <h1>Secure Your Spot</h1>
+    <p class="subtitle">Early-bird pricing ends August 15, 2026.</p>
+
+    <div class="pricing-container">
+
+        <!-- Standard -->
+        <div class="card">
+
+            <h5>STANDARD</h5>
+
+            <h2>$399</h2>
+
+            <p class="person">per person</p>
+
+            <hr>
+
+            <ul>
+                <li>Access to all 3 conference days</li>
+                <li>48 curated technical talks</li>
+                <li>2 workshop sessions</li>
+                <li>Networking lunch & coffee breaks</li>
+                <li>Conference swag bag</li>
+                <li>Digital recordings (30 days)</li>
+            </ul>
+
+            <button>Get Standard</button>
+
+        </div>
+
+        <!-- Pro -->
+        <div class="card active">
+
+            <h5>PRO</h5>
+
+            <h2>$749</h2>
+
+            <p class="person">per person</p>
+
+            <hr>
+
+            <ul>
+                <li>Everything in Standard</li>
+                <li>Unlimited workshop access</li>
+                <li>Speaker meet & greet</li>
+                <li>VIP networking dinner</li>
+                <li>Lifetime recording access</li>
+                <li>1-on-1 mentorship (30 min)</li>
+            </ul>
+
+            <button>Get Pro</button>
+
+        </div>
+
+        <!-- Team -->
+        <div class="card">
+
+            <h5>TEAM</h5>
+
+            <h2>$5,999</h2>
+
+            <p class="person">up to 10 people</p>
+
+            <hr>
+
+            <ul>
+                <li>Everything in Pro (10 seats)</li>
+                <li>Dedicated team lounge access</li>
+                <li>Private workshop booking</li>
+                <li>Company logo on event page</li>
+                <li>Recruitment booth (1 day)</li>
+                <li>Priority customer support</li>
+            </ul>
+
+            <button>Contact Us</button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
 </body>
+
 </html>

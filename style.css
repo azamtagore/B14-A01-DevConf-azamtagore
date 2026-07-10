@@ -1,5 +1,355 @@
-.navbar {
+*{
+    margin:0;
+    padding:0;
+    font-family: "Arimo", sans-serif;
+
+
+
+header {
+    background-color: rgb(254, 254, 254);
+}
+
+nav {
     display: flex;
+    justify-content: space-evenly;
     justify-items: center;
+    align-items: center;
+    font-family: "Arimo", sans-serif;
+
+}
+nav div h2{
+    text-align: left;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    list-style: none;
+
+}
+
+.common-button {
+    background-color: blue;
+    padding: 8px 4px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+/* .banner-section{
+    display:grid;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    color:white;
+    gap:70px;
+    padding: 60px;
+    margin: 4px; 
+h2{
+    font-size: 70px;
+}
+}
     
+.bg-image {
+    position:fixed;
+    width: 1551px;
+    hight: 786px;
+    object-fit: cover; /* Makes the image cover the section */
+    /* z-index: -2;       Places the image behind the content */ */
+}
+.hero{
+    position:relative;
+    width:100%;
+    height:90vh;
+    overflow:hidden;
+}
+
+/* Background Image */
+
+.hero-img{
+    width:100%;
+    height:30%;
+    object-fit:cover;
+    display:block;
+}
+
+/* Dark Overlay */
+
+.overlay{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,.60);
+}
+
+/* Content */
+
+.hero-content{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align:center;
+    color:white;
+    width:80%;
+    max-width:850px;
+}
+
+.hero-content h1{
+    font-size:70px;
+    font-weight:bold;
+    margin-bottom:25px;
+}
+
+.hero-content h1 span{
+    font-style:italic;
+}
+
+.hero-content p{
+    font-size:22px;
+    line-height:1.6;
+    margin-bottom:45px;
+}
+
+/* Button */
+
+.btn{
+    display:inline-block;
+    padding:18px 45px;
+    background:#2f56ff;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    font-size:22px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#1c3fd1;
+}
+
+/* Meet the speakers Section */
+body{
+    background:#f7f7f7;
+}
+
+.speakers{
+    width:90%;
+    max-width:1200px;
+    margin:60px auto;
+}
+
+.speakers h1{
+    text-align:center;
+    font-size:48px;
+    margin-bottom:40px;
+}
+
+.speaker-container{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:30px;
+}
+
+.card{
+
+    background:white;
+
+    border-radius:10px;
+
+    overflow:hidden;
+
+    box-shadow:0 2px 10px rgba(0,0,0,.1);
+}
+
+.card img{
+
+    width:100%;
+
+    height:260px;
+
+    object-fit:cover;
+
+    display:block;
+}
+
+.card-content{
+
+    padding:20px;
+}
+
+.card-content h5{
+
+    color:#2f6bff;
+
+    font-size:12px;
+
+    margin-bottom:10px;
+
+    text-transform:uppercase;
+}
+
+.card-content h2{
+
+    margin-bottom:10px;
+
+    font-size:28px;
+}
+
+.card-content p{
+
+    color:#666;
+}
+
+/* Pricing Section */
+body{
+    background:#f5f5f5;
+}
+
+.pricing{
+
+    width:90%;
+    max-width:1200px;
+
+    margin:70px auto;
+}
+
+.pricing h1{
+
+    text-align:center;
+
+    font-size:48px;
+
+    margin-bottom:10px;
+
+    color:#172233;
+}
+
+.subtitle{
+
+    text-align:center;
+
+    color:#777;
+
+    margin-bottom:45px;
+}
+
+.pricing-container{
+
+    display:flex;
+
+    gap:25px;
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+}
+
+.card{
+
+    flex:1;
+
+    min-width:300px;
+
+    background:#fff;
+
+    border-radius:10px;
+
+    padding:30px;
+
+    border:1px solid #ddd;
+}
+
+.card h5{
+
+    color:#777;
+
+    margin-bottom:15px;
+}
+
+.card h2{
+
+    font-size:50px;
+
+    margin-bottom:5px;
+}
+
+.person{
+
+    color:#777;
+
+    margin-bottom:20px;
+}
+
+.card hr{
+
+    margin-bottom:20px;
+
+    border:1px solid #eee;
+}
+
+.card ul{
+
+    margin-left:20px;
+
+    margin-bottom:30px;
+}
+
+.card li{
+
+    margin-bottom:15px;
+}
+
+.card button{
+
+    width:100%;
+
+    padding:15px;
+
+    border-radius:8px;
+
+    border:1px solid royalblue;
+
+    background:white;
+
+    color:royalblue;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+    font-weight:bold;
+}
+
+.active{
+
+    background:#132235;
+
+    color:white;
+}
+
+.active .person{
+
+    color:#bbb;
+}
+
+.active h5{
+
+    color:#7fb4ff;
+}
+
+.active button{
+
+    background:royalblue;
+
+    color:white;
+
+    border:none;
 }
