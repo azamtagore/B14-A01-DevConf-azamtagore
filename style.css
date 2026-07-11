@@ -302,7 +302,7 @@ body {
     list-style-type: disc;
     text-align: justify;
     padding-left: 10px;
-    
+
 }
 
 .price-card-pro li {
@@ -549,13 +549,79 @@ body {
 }
 
 /* Event info */
+.event-info{
 
-.event-info {
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
 
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 15px;
-    padding: 0 25px 25px;
+    gap:15px;
+
+    padding:0 25px 25px;
+
+}
+
+.info-box{
+
+    display:flex;
+    align-items:center;
+    gap:15px;
+
+    background:#fff;
+
+    border:1px solid #ececec;
+
+    border-radius:15px;
+
+    padding:18px;
+
+}
+
+.circle{
+
+    width:50px;
+    height:50px;
+
+    border-radius:50%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-size:22px;
+
+}
+
+.purple{
+
+    background:#efe5ff;
+    color:#7c35ff;
+
+}
+
+.blue{
+
+    background:#e6f1ff;
+    color:#256dff;
+
+}
+
+.green{
+
+    background:#e6fff0;
+    color:#11b86d;
+
+}
+
+.info-box small{
+
+    color:#777;
+
+}
+
+.info-box h4{
+
+    margin-top:5px;
+    color:#222;
 
 }
 
@@ -563,13 +629,6 @@ body {
 
     padding: 0 25px;
     text-align: center;
-
-}
-
-.map img {
-
-    width: 100%;
-    border-radius: 15px;
 
 }
 
@@ -593,7 +652,7 @@ body {
 }
 
 .map-btn:hover {
-
+    src: url(https://maps.app.goo.gl/nxpcwbMdoyWsHo7X6);
     transform: translateY(-3px);
 
     box-shadow: 0 10px 20px rgba(76, 44, 255, .3);
@@ -611,14 +670,15 @@ body {
     margin: 60px auto;
 
 }
+
 /* Footer Section CSS */
-.footer{
+.footer {
     background: #0f1f31;
     width: 100%;
     padding: 35px 0;
 }
 
-.footer-container{
+.footer-container {
     width: 1200px;
     max-width: 100%;
     margin: 0 auto;
@@ -629,7 +689,7 @@ body {
 }
 
 /* Copyright Text */
-.footer p{
+.footer p {
     color: #7d8793;
     font-size: 14px;
     margin: 0;
@@ -637,12 +697,12 @@ body {
 }
 
 /* Right Links */
-.footer-links{
+.footer-links {
     display: flex;
     gap: 25px;
 }
 
-.footer-links a{
+.footer-links a {
     color: #7d8793;
     text-decoration: none;
     font-size: 14px;
@@ -650,6 +710,6 @@ body {
     transition: color .3s;
 }
 
-.footer-links a:hover{
+.footer-links a:hover {
     color: #ffffff;
 }
