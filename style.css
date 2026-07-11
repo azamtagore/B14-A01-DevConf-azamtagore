@@ -195,29 +195,20 @@ body {
 .pricing h1 {
 
     text-align: center;
-
     font-size: 48px;
-
     margin-bottom: 10px;
-
     color: #172233;
 }
 
 .subtitle {
-
     text-align: center;
-
     color: #777;
-
     margin-bottom: 45px;
 }
 
 .pricing-container {
-
     display: flex;
-
     gap: 10px;
-
     justify-content: space-evenly;
 
 }
@@ -368,11 +359,8 @@ body {
     display: flex;
     align-items: center;
     gap: 20px;
-
     padding: 25px 30px;
-
     background: linear-gradient(90deg, #4328c7, #6a32ff);
-
     color: #fff;
 
 }
@@ -381,28 +369,22 @@ body {
 
     width: 60px;
     height: 60px;
-
     background: rgba(255, 255, 255, .2);
-
     border-radius: 50%;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
     font-size: 28px;
 
 }
 
 .faq-header h2 {
-
     font-size: 36px;
     margin-bottom: 5px;
 
 }
 
 .faq-header p {
-
     opacity: .9;
 
 }
@@ -410,19 +392,14 @@ body {
 .faq-item {
 
     margin: 20px;
-
     padding: 22px;
-
     border: 1px solid #ececec;
-
     border-radius: 15px;
-
     transition: .3s;
 
 }
 
 .faq-item:hover {
-
     box-shadow: 0 10px 25px rgba(0, 0, 0, .08);
 
 }
@@ -447,17 +424,12 @@ body {
 
     width: 36px;
     height: 36px;
-
     border-radius: 50%;
-
     background: linear-gradient(45deg, #4f2fff, #7d4cff);
-
     color: #fff;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
     font-weight: bold;
 
 }
@@ -508,18 +480,13 @@ body {
 
 }
 
-/* Header */
-
 .venue-header {
 
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     background: linear-gradient(90deg, #2d53d5, #8b4dff);
-
     color: #fff;
-
     padding: 20px 25px;
 
 }
@@ -589,61 +556,6 @@ body {
     grid-template-columns: repeat(3, 1fr);
     gap: 15px;
     padding: 0 25px 25px;
-
-}
-
-.info-box {
-
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    background: #fff;
-    border: 1px solid #ececec;
-    border-radius: 15px;
-    padding: 18px;
-
-}
-
-.circle {
-
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    font-size: 22px;
-
-}
-
-.purple {
-    background: #efe5ff;
-    color: #7c35ff;
-
-}
-
-.blue {
-    background: #e6f1ff;
-    color: #256dff;
-
-}
-
-.green {
-    background: #e6fff0;
-    color: #11b86d;
-
-}
-
-.info-box small {
-    color: #777;
-
-}
-
-.info-box h4 {
-
-    margin-top: 5px;
-    color: #222;
 
 }
 
